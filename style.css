@@ -1,0 +1,32 @@
+body { margin:0%; padding-top: 700px; text-align: center; }
+
+.imgb { width: 420px; height: 350px; border-radius: 50%; }
+
+
+
+#Welcometothecarofbugatti { 
+    position:absolute; /*Posición absolute, se refiere a colocar la sección "welcome" dentro de la pagina web, sin que el texto la tome en cuenta. Se le tiene que abrir espacio por medio de padding, 
+    ya que de lo contrario el texto se pondra abajo de esta sección*/bottom: 0%;
+background: linear-gradient(#000000 0%, #ff3c00 100%);
+display:table;
+width: 100%;
+height: 100%;
+}
+.xdimagen {
+    display: table-cell;
+vertical-align:middle
+}
+.titl4s{
+    font-size: 40px; font-family: sans-serif;
+}
+#tlitl4{
+    font-size: 40px; font-family: sans-serif;
+}
+.linea { height: 6px; background-color: #000; width: 70px; margin: 8px auto;}
+
+.menu{
+    list-style:none; position:absolute; top:0px; z-index: 1; cursor:pointer;  
+}
+.linksxd{
+    float:left; padding-top: 5px; padding-left: 12px; padding-right: 12px; padding-bottom: 5px; font-size: 15px; font-family: 'Potta One', cursive; color:blue;
+}
